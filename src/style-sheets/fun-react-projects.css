@@ -1,0 +1,456 @@
+/* Basic Features ------------------------------------------------------------------------------------- */
+
+.center-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 45px;
+}
+
+.center-row {
+    margin: 0;
+}
+
+/* Home Page ------------------------------------------------------------------------------------------ */
+
+#hero-home-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+}
+
+#hero-overlay {
+    background-color: rgba(0,0,0,0.5);
+    top: 0; 
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  .bounce-square {
+    background-color: #FFFAF0;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 150px;
+  }
+  
+  .button-row {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .start-button {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 45px;
+    color: white;
+  }
+
+  /* To Do List Component----------------------------------------------------------------------------------------------------------------------- */
+
+#hero-to-do-list-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .to-do-list-container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    background-color: #FFFAF0;
+    /* display: flex; */
+  }
+  
+  .center-item-list {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .to-do-list-item {
+    font-size: 30px;
+    font-family: fantasy;
+    list-style: none;
+    padding: 15px;
+    list-style-position: inside;
+    background-color: #F0F8FF;
+    text-overflow: hidden;
+    overflow-wrap: break-word;
+  }
+  
+  
+  /* Tip Calculator----------------------------------------------------------------------------------------------------------------------- */
+  
+  #hero-tip-calculator-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .tip-calculator-container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    background-color: #FFFAF0;
+  }
+  
+  .tip-calculator-outline {
+    border-style: solid;
+    border-color: black;
+    background-color: #585858;
+  }
+  
+  #tip-calculator-center-row {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .tip-calculator-label {
+    font-size: 25px;
+    font-family: fantasy;
+  }
+  
+  .tip-calculator-radio-button {
+    width: 1em;
+    height: 1em;
+  }
+  
+  /* Pokedex----------------------------------------------------------------------------------------------------------------------- */
+  
+  #hero-pokedex-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .pokedex-container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    background-color: #FFFAF0;
+  }
+  
+  .pokedex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10px;
+    margin: 50px auto;
+    background-color: #FE0065;
+    border-radius: 10px;
+    box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+  }
+  
+  .poke-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #BFF9FF;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+    overflow: scroll;
+  }
+  
+  .poke-cell {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  }
+  
+  .detail-view {
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+    background-color: #df095e;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: break-word;
+  }
+  
+  .sprite-image {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #585858;
+    border: 15px solid #DEDEDE;
+    border-radius: 5px;
+    color: #585858;
+  }
+  
+  .data-wrapper {
+    width: 80%;
+    height: 350px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #585858;
+    border-radius: 5px;
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.22);
+    color: #FFF;
+    overflow-wrap: break-word;
+    /* display: flex; */
+  }
+  
+  .data-name {
+    margin: 0 0 5px;
+  }
+  
+  .data-char {
+    font-size: 30px;
+  }
+  
+  /* Tic Tac Toe----------------------------------------------------------------------------------------------------------------------- */
+  
+  #hero-tic-tac-toe-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .tic-tac-toe-container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    background-color: #FFFAF0;
+  }
+  
+  .tic-tac-toe-body {
+    font: 14px "Century  Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  .tic-tac-toe-ol {
+    padding-left: 30px;
+  }
+  
+  .tic-tac-toe-ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status  {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 40px;
+    margin-right: -1px;
+    padding:  0;
+    text-align: center;
+    width:40px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbdnavigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  /* Attendance Sheet----------------------------------------------------------------------------------------------------------------------- */
+  
+  #hero-check-in-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .check-in-container {
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    background-color: #FFFAF0;
+    font-size: 40px;
+  }
+  
+  .check-in-button {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .check-in-input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFFAF0;
+  }
+  
+  .check-in-list-item {
+    list-style: none;
+    font-family: fantasy;
+    text-align: center;
+  }
+  
+  /* Grocery List----------------------------------------------------------------------------------------------------------------------- */
+  
+  #hero-grocery-list-background {
+    background-image: url('../assets-fun-react-projects/images.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    z-index: -10;
+    height: 200vh;
+    margin: 0;
+    font-family: fantasy;
+  }
+  
+  .grocery-list-container {
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    height: 100vh;
+    width: auto;
+    background-color: #FFFAF0;
+    font-size: 30px;
+  }
+  
+  .grocery-list-budget-input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFFAF0;
+  }
+  
+  .grocery-list-item-input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFFAF0
+  }
+  
+  .grocery-list-item-input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFFAF0;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+  }
+  
+  #grocery-list-center-row {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #grocery-list-amount-label {
+    font-family: font-fantasy;
+    margin: 10px 10px 10px 10px;
+    float: right;
+  }
+  
+  #grocery-item-button {
+    margin: 20px 20px 20px 20px; 
+  }
+  
+  .grocery-list-item {
+    font-size: 25px;
+    font-family: fantasy;
+    list-style: none;
+    padding: 15px;
+    list-style-position: inside;
+    background-color: #F0F8FF;
+    text-overflow: hidden;
+    overflow-wrap: break-word;
+    width: auto;
+  }
+
+  /* NavBar Features----------------------------------------------------------------------------------------------------------------------- */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+  }

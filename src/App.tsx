@@ -27,6 +27,7 @@ import { ToDoListPageComponent } from './components/coding-projects/project-page
 import { TipCalculatorPageComponent } from './components/coding-projects/project-page/reactjs-projects/tip-calculator-page-component';
 import { PokedexPageComponent } from './components/coding-projects/project-page/reactjs-projects/pokedex-page-component';
 import { CheckInPageComponent } from './components/coding-projects/project-page/reactjs-projects/checkin-page-component';
+import FunReactHomeComponent from './components/fun-react-project/home-page-component/FunReactHomeComponent';
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
             <Route path="/check-in" exact component={CheckInPageComponent} />
             <Route path="/resume" component={ResumeComponent} />
             <Route path="/contact-me" component={ContactForm} />
-            <Route path="https://fun-react-projects-bucket.s3.us-east-2.amazonaws.com/index.html" />
+            <Route path="/fun-react-projects" exact component={FunReactHomeComponent} />
             <Route path="https://github.com/Ejdeguzman72" />
             <Route path="https://www.linkedin.com/in/edgarjdeguzman" />
             <Route component={HomeComponent}  />
