@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
+import '../../../style-sheets/fun-react-projects.css';
+import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
 import ListComponent from './ListComponent';
 
-export default class ToDoListComponent extends React.Component {
+export default class FunReactToDoListComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -34,7 +36,7 @@ export default class ToDoListComponent extends React.Component {
     render() {
         return (
             <div>
-                <NavBarComponent />
+                <FunReactProjectNavBarComponent />
                 <div id="hero-to-do-list-background">
                     <br></br>
                     <Container className="to-do-list-container">

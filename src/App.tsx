@@ -24,10 +24,16 @@ import { PaintAndLaborCalculatorPHPPageComponent } from './components/coding-pro
 import { BookKeepingApplicationPageComponent } from './components/coding-projects/project-page/php-project-page-component/book-keeping-application-page-component';
 import ContactForm from './components/contact-me/contact-me-component';
 import { ToDoListPageComponent } from './components/coding-projects/project-page/reactjs-projects/todolist-page-component';
-import { TipCalculatorPageComponent } from './components/coding-projects/project-page/reactjs-projects/tip-calculator-page-component';
 import { PokedexPageComponent } from './components/coding-projects/project-page/reactjs-projects/pokedex-page-component';
 import { CheckInPageComponent } from './components/coding-projects/project-page/reactjs-projects/checkin-page-component';
 import FunReactHomeComponent from './components/fun-react-project/home-page-component/FunReactHomeComponent';
+import FunReactToDoListComponent from './components/fun-react-project/to-do-list-page-component/ToDoListPageComponent';
+import { TipCalculatorPageCompoennt } from './components/fun-react-project/tip-calculator-page-component/TipCalculatorPageComponent';
+import { TipCalculatorPageComponent } from './components/coding-projects/project-page/reactjs-projects/tip-calculator-page-component';
+import { PokedexComponent } from './components/fun-react-project/fun-react-pokedex/pokedex-component';
+import { TicTacToeComponent } from './components/fun-react-project/fun-reaect-tic-tac-toe/tic-tac-toc-component';
+import { CheckInComponent } from './components/fun-react-project/fun-react-attendance-sheet/attendance-component';
+import { GroceryListComponent } from './components/fun-react-project/grocery-list/grocery-list-component';
 
 function App() {
   return (
@@ -58,6 +64,12 @@ function App() {
             <Route path="/resume" component={ResumeComponent} />
             <Route path="/contact-me" component={ContactForm} />
             <Route path="/fun-react-projects" exact component={FunReactHomeComponent} />
+            <Route path="/fun-react-projects/to-do-list" exact component={FunReactToDoListComponent} />
+            <Route path="/fun-react-projects/tip-calculator" exact component={TipCalculatorPageCompoennt} />
+            <Route path="/fun-react-tic-tac-toe" exact component={TicTacToeComponent} />
+            <Route path="/fun-react-pokedex" exact component={PokedexComponent} />
+            <Route path="/fun-react-attendance-sheet" exact component={CheckInComponent} />
+            <Route path="/fun-react-grocery-list" exact component={GroceryListComponent} />
             <Route path="https://github.com/Ejdeguzman72" />
             <Route path="https://www.linkedin.com/in/edgarjdeguzman" />
             <Route component={HomeComponent}  />

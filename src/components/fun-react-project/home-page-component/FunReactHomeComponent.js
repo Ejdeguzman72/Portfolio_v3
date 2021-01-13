@@ -22,7 +22,7 @@ const FunReactHomePageComponent = () => {
                         </Bounce>
                         <div className="button-row">
                             <Button variant="dark" className="start-button" size="lg">
-                                <Link to="to-do-list" className="navbar-link">
+                                <Link to="/fun-react-projects/to-do-list" className="navbar-link">
                                     START
                                 </Link>
                             </Button>
