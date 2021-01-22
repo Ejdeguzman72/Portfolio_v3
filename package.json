@@ -17,6 +17,7 @@
     "@types/reactstrap": "^8.7.2",
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.4",
+    "file-saver": "^2.0.5",
     "gh-pages": "^2.2.0",
     "hash-router": "^0.4.0",
     "node-sass": "^4.14.1",

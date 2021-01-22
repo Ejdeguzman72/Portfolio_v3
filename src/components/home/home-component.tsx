@@ -6,6 +6,10 @@ import { CodingProjectsButtonComponent } from './coding-projects-button-componen
 import { ResumeButtonComponent } from './resume-button-component';
 import { Button } from 'react-bootstrap';
 import {  Helmet } from 'react-helmet';
+import HomeTabComponent from '../tab-components/HomeTabComponent';
+import AboutMeTabComponent from '../tab-components/AboutMeTabComponent';
+import ResumeTabComponent from '../tab-components/ResumeTabComponent';
+import CodingProjectsTabComponent from '../tab-components/CodingProjectsTabComponent';
 
 export class HomeComponent extends React.Component<any, any>  {
     constructor(props: any) {
@@ -26,19 +30,19 @@ export class HomeComponent extends React.Component<any, any>  {
                 <div className="split right">
                     <div className="centered">
                         <div className="form-row">
-                            <HomeButtonComponent />
+                            <HomeTabComponent />
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <AboutMeButtonComponent />
+                            <AboutMeTabComponent/>
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <CodingProjectsButtonComponent />
+                            <CodingProjectsTabComponent />
                         </div>
                         <br></br>
                         <div className="form-row">
-                            <ResumeButtonComponent  /> 
+                            <ResumeTabComponent />
                         </div>
                         {/* <div className="form-row">
                         <div className="blink"><span>blinking text</span></div>
