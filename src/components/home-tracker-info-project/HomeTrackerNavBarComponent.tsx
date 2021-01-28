@@ -49,7 +49,7 @@ export class NavBarComponent extends React.Component<any, any> {
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     {
                         jwt ?
-                        <Navbar.Brand><Link to="/home" id="link">
+                        <Navbar.Brand><Link to="/home-tracker-info-home" id="link">
                         Home </Link></Navbar.Brand> : null
                     }
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

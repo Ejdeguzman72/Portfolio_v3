@@ -28,7 +28,7 @@ export class SpringBootReactProjectsCardComponent extends React.Component<any, a
                                     DSA Project
                                     </Link>
                                 </Dropdown.Item>
-                                <Dropdown.Item href="#/action-2">
+                                <Dropdown.Item>
                                     <Link  to="/car-rental-service-project">
                                     Car Rental Service project
                                     </Link>

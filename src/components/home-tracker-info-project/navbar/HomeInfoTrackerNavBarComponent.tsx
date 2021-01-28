@@ -6,7 +6,7 @@ const HomeInfoTrackerNavBarComponent = () => {
     return (
         <div>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand><Link to="/home" id="link">
+                <Navbar.Brand><Link to="/home-tracker-info-home" id="link">
                    Home </Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
