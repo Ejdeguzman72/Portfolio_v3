@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import '../../../style-sheets/fun-react-projects.css';
+import { FooterComponent } from '../../footer-component/footer-component';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
 import ListComponent from './ListComponent';
 
@@ -50,6 +51,7 @@ export default class FunReactToDoListComponent extends React.Component {
                     </Container>
 
                 </div>
+                <FooterComponent />
             </div>
         )
     }

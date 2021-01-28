@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { FooterComponent } from '../../footer-component/footer-component';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
 
 export class TicTacToeComponent extends React.Component {
@@ -137,6 +138,7 @@ class Game extends React.Component {
                     <div>{status}</div>
                     <ol className="tic-tac-toe-ol">{moves}</ol>
                 </div>
+                <FooterComponent />
             </div>
         );
     }

@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -15,15 +17,19 @@
     "@types/react-helmet": "^5.0.16",
     "@types/react-router-dom": "^5.1.7",
     "@types/reactstrap": "^8.7.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "emailjs-com": "^2.6.4",
     "file-saver": "^2.0.5",
     "gh-pages": "^2.2.0",
     "hash-router": "^0.4.0",
+    "material-table": "^1.69.2",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-animations": "^1.0.0",
     "react-bootstrap": "^1.4.3",
+    "react-cookie": "^4.0.3",
+    "react-cookies": "^0.1.1",
     "react-dom": "^16.14.0",
     "react-file-viewer": "^1.2.1",
     "react-helmet": "^5.2.1",
@@ -32,6 +38,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
     "reactstrap": "^8.8.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
     "styled-components": "^5.2.1",
     "switch": "0.0.0",
     "typescript": "^3.9.7"
@@ -60,7 +68,9 @@
     ]
   },
   "devDependencies": {
+    "@types/react-cookies": "^0.1.0",
     "@types/react-pdf": "^4.0.6",
-    "copy-webpack-plugin": "^5.1.2"
+    "copy-webpack-plugin": "^5.1.2",
+    "css-loader": "^5.0.1"
   }
 }

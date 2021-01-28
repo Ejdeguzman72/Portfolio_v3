@@ -5,6 +5,7 @@ import logo from '../../assets/about-me-assets/logo.png';
 import KY  from '../../assets/about-me-assets/l1c4.jpg';
 import { Link } from 'react-router-dom';
 import { Helmet} from 'react-helmet';
+import { FooterComponent } from '../footer-component/footer-component';
 
 export class AboutMeComponent extends React.Component<any,any> {
 
@@ -80,6 +81,7 @@ export class AboutMeComponent extends React.Component<any,any> {
                         </Row>
                     </Container>
                 </div>
+                <FooterComponent />
             </div>
         )
     }

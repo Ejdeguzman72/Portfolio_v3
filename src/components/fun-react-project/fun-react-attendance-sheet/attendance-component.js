@@ -2,6 +2,7 @@ import React from 'react';
 import { Form, Container, Button, Row } from 'react-bootstrap';
 import AttendanceListComponent from './attendance-list-component';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
+import { FooterComponent } from '../../footer-component/footer-component';
 
 export class CheckInComponent extends React.Component {
     constructor(props) {
@@ -75,6 +76,7 @@ export class CheckInComponent extends React.Component {
                         </Container>
                     </Form>
                 </div>
+                <FooterComponent />
             </div>
         )
     }

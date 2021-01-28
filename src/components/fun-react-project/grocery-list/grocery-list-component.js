@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import  ListComponent  from './list-component';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
+import { FooterComponent } from '../../footer-component/footer-component';
 
 export class GroceryListComponent extends React.Component {
     constructor(props) {
@@ -97,7 +98,7 @@ export class GroceryListComponent extends React.Component {
                                 />
                         </Container>
                 </div>
-
+                <FooterComponent />
             </div>
         )
     }

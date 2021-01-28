@@ -12,7 +12,7 @@ export class FunReactProjectNavBarComponent extends React.Component {
         return (
             <HashRouter>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">Fun React Applications</Navbar.Brand>
+                    <Navbar.Brand href="#fun-react-projects">Fun React Applications</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
@@ -60,6 +60,19 @@ export class FunReactProjectNavBarComponent extends React.Component {
                                 Dank memes
                             </Nav.Link>
                         </Nav>
+                        <Form inline>
+                            <Button variant="outline-info" id="navbar-button">
+                                <Link to="/home-tracker-info-login">
+                                    EJ-Application
+                                </Link>
+                            </Button>
+                            <Button variant="outline-info" id="navbar-button">
+                                <Link to="/fun-react-projects">Fun React Projects</Link>
+                            </Button>
+                            {/* <Link to="contact-me" id="navbar-button">
+                                <Button variant="outline-info" >Contact Me</Button  >
+                            </Link> */}
+                        </Form>
                     </Navbar.Collapse>
                 </Navbar>
             </HashRouter>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Button,Form } from 'react-bootstrap';
 import '../../../style-sheets/fun-react-projects.css';
+import { FooterComponent } from '../../footer-component/footer-component';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
 
 export class TipCalculatorPageCompoennt extends React.Component {
@@ -110,6 +111,7 @@ export class TipCalculatorPageCompoennt extends React.Component {
                         </Container>
                     </Form>
                 </div>
+                <FooterComponent />
             </div>
         )
     }

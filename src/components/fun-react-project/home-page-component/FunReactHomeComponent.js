@@ -4,6 +4,7 @@ import '../../../style-sheets/fun-react-projects.css';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { FooterComponent } from '../../footer-component/footer-component';
 
 const FunReactHomePageComponent = () => {
     return (
@@ -30,6 +31,7 @@ const FunReactHomePageComponent = () => {
                     </div>
                 </div>
             </div>
+            <FooterComponent />
         </div>
     )
 }

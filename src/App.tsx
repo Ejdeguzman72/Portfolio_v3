@@ -34,6 +34,21 @@ import { PokedexComponent } from './components/fun-react-project/fun-react-poked
 import { TicTacToeComponent } from './components/fun-react-project/fun-reaect-tic-tac-toe/tic-tac-toc-component';
 import { CheckInComponent } from './components/fun-react-project/fun-react-attendance-sheet/attendance-component';
 import { GroceryListComponent } from './components/fun-react-project/grocery-list/grocery-list-component';
+import { MedicalRecordInfomrationComponent } from './components/home-tracker-info-project/MedicalRecordComponents/MedicalRecordInformationComponent';
+import { CarInformationComponent } from './components/home-tracker-info-project/CarComponents/CarInformationComponent';
+import { CardInformationComponent } from './components/home-tracker-info-project/CardComponents/CardInformationComponent';
+import { CarRecordInformationComponent } from './components/home-tracker-info-project/CarRecordComponents/CarRecordInformationComponent';
+import CarRecordUploadPageComponent from './components/home-tracker-info-project/CarRecordComponents/CarRecordUploadPageComponent';
+import { TransactionInformationComponent } from './components/home-tracker-info-project/TransactionComponents/TransactionInformationComponent';
+import LoginComponent from './components/home-tracker-info-project/LoginComponent/LoginComponent';
+import { EntryHomeComponent } from './components/home-tracker-info-project/HomeComponent/home-component';
+import { BankInformationComponent } from './components/home-tracker-info-project/BankComponents/BankInformationComponent';
+import { ContactInfomrationComponent } from './components/home-tracker-info-project/ContactComponents/ContactInformationComponent';
+import { DoctorOfficeInfomrationComponent } from './components/home-tracker-info-project/DoctorOfficeComponents/DoctorOfficeInformationComponent';
+import { PhotoPageComponent } from './components/home-tracker-info-project/MediaComponents/photo-page-component/photo-page-component';
+import PhotoUploadComponent from './components/home-tracker-info-project/File-Upload-Components/PhotoUploadComponent';
+import { PhotoUploadPageComponent } from './components/home-tracker-info-project/MediaComponents/photo-upload-page-component/photo-upload-page-component';
+import { TransactionUploadComponent } from './components/home-tracker-info-project/TransactionComponents/TransactionUploadComponent';
 
 function App() {
   return (
@@ -63,6 +78,8 @@ function App() {
             <Route path="/check-in" exact component={CheckInPageComponent} />
             <Route path="/resume" component={ResumeComponent} />
             <Route path="/contact-me" component={ContactForm} />
+
+
             <Route path="/fun-react-projects" exact component={FunReactHomeComponent} />
             <Route path="/fun-react-projects/to-do-list" exact component={FunReactToDoListComponent} />
             <Route path="/fun-react-projects/tip-calculator" exact component={TipCalculatorPageCompoennt} />
@@ -70,6 +87,25 @@ function App() {
             <Route path="/fun-react-pokedex" exact component={PokedexComponent} />
             <Route path="/fun-react-attendance-sheet" exact component={CheckInComponent} />
             <Route path="/fun-react-grocery-list" exact component={GroceryListComponent} />
+
+            <Route path="/home-tracker-info-login" exact component={LoginComponent} />
+            <Route path="/home-tracker-info-home" exact component={EntryHomeComponent} />
+            <Route path="/bank-information" exact component={BankInformationComponent} />
+            <Route path="/card-information" exact component={CardInformationComponent} />
+            <Route path="/car-record-information" exact component={CarRecordInformationComponent} />
+            <Route path="/car-record-uploads" exact component={CarRecordUploadPageComponent} />
+            <Route path="/car-information" exact component={CarInformationComponent} />
+            <Route path="/contact-information" exact component={ContactInfomrationComponent} />
+            <Route path="/doctor-office-information" exact component={DoctorOfficeInfomrationComponent} />
+            <Route path="/medical-record-information" exact component={MedicalRecordInfomrationComponent} />
+            <Route path="/medical-records-uploads" exact component={MedicalRecordInfomrationComponent} />
+            <Route path="/photos" exact component={PhotoPageComponent} />
+            <Route path="/photo-uploads" exact component={PhotoUploadPageComponent} />
+            <Route path="/transaction-information" exact component={TransactionInformationComponent} />
+            {/* <Route path="/transaction-uploads" exact component={TransactionUploadPageComponent} /> */}
+            
+
+
             <Route path="https://github.com/Ejdeguzman72" />
             <Route path="https://www.linkedin.com/in/edgarjdeguzman" />
             <Route component={HomeComponent}  />

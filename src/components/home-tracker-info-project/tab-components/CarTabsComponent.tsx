@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Tab, Col, Nav } from 'react-bootstrap';
 
-const CarRecordsTabsComponent = () => {
+const CarTabComponent = () => {
     return (
         <div>
              <Row>
@@ -9,7 +9,7 @@ const CarRecordsTabsComponent = () => {
                     <Col md={12}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                                <Nav.Link href="#card-record-information" eventKey="first" id="tabs">Card Record Information</Nav.Link>
+                                <Nav.Link href="#cars" eventKey="first" id="tabs">Car Information</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Col>
@@ -19,4 +19,4 @@ const CarRecordsTabsComponent = () => {
     )
 }
 
-export default CarRecordsTabsComponent;
+export default CarTabComponent;

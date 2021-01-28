@@ -1,0 +1,573 @@
+/*Home/Universal CSS----------------------------------------------------------------------------------------*/
+
+.App {
+    text-align: center;
+  }
+  
+  .navbar-button {
+    color: white;
+  }
+  
+  #link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #tab-link {
+    color: black;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .dropdown-color {
+    color: black;
+  }
+  
+  .tab-center {
+    text-align: center;
+  }
+  
+  #tabs {
+    background-color: rgb(16,16,16);
+    font-family: fantasy;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    margin: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    opacity: 0.8;
+  }
+  
+  #hero-home {
+    background-image: url('../assets/Long-row-of-suburban-townhouses-with-a-white-picket-fence-in-front.-min-e1442000949923.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    width: auto;
+    position: relative;;
+  }
+  
+  /* LoginComponent CSS----------------------------------------------------------------------------------------*/
+  
+  #hero-login-background {
+    background-image: url('../assets/Long-row-of-suburban-townhouses-with-a-white-picket-fence-in-front.-min-e1442000949923.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    width: auto;
+    /* position: relative; */
+  }
+  
+  #hero-login-overlay {
+    /* position: relative; */
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+  }
+  
+  .login-container {
+    margin: auto;
+    padding: 20px;
+    border-style: solid;
+    box-shadow: 15px 15px 20px #383838;
+    background-color: #383838;
+    font-family: fantasy;
+    height: 65vh;
+    width: auto;
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+    /* opacity: 0.9; */
+  }
+  .login-container p{
+    font-size: 1em;
+    font-family: fantasy;
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+    /* opacity: 0.9; */
+  }
+  
+  .login-input {
+    /* border: none;
+    border-bottom: 2px solid black; */
+    background-color: #505050;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-color: white;
+  }
+  
+  .login-input-label {
+    font-size: 25px;
+    margin: 10px 10px 10x 10px;
+  }
+  
+  #login-btn {
+    border-radius: 50px;
+    background-color: rgb(32,32,32);
+    color: white;
+    font: fantasy;
+    font-size: 30px;
+    padding: 15px;
+    width: 50%;
+    border-color: white;
+  }
+  
+  #register-btn {
+    border-radius: 50px;
+    background-color: rgb(32,32,32);
+    color: white;
+    font: fantasy;
+    font-size: 30px;
+    padding: 15px;
+    width: 50%;
+    border-color: white;
+  }
+  
+  /* Contact Info CSS----------------------------------------------------------------------------------------*/
+  
+  .contact-information-container {
+    margin: auto;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: lightyellow;
+    font-size: 2em;
+    font-family: fantasy;
+    height: 80vh;
+    width: 100%;
+    /* overflow: scroll; */
+    text-align: center;
+  }
+  
+  .contact-information-container p{
+    font-size: 1em;
+    font-family: fantasy;
+  }
+  
+  .container-text {
+    margin: 0 auto;
+  }
+  
+  #hero-contact-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: absolute; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  /* ---------------------------------------------------------------------------------- */
+  
+  /* Financial - Transaction Info CSS----------------------------------------------------------------------------------------*/
+  
+  #transaction-information-container {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-size: 1em;
+    width: 60%;
+    height: 70vh;
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 18px #888888;
+    font-family: fantasy;
+  }
+  
+  #transaction-information-p-border {
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+  }
+  
+  #hero-transaction-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    /* bottom: 0; */
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: relative; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  
+  /* -------------------------------------------------------------------------------------------*/
+  
+  /* Financial - Card Info CSS----------------------------------------------------------------------------------------*/
+  
+  
+  #card-information-container {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    height: 70vh;
+    width: 60%;
+    font-family: fantasy;
+    border-color: black;
+    border-style: solid;
+    background-color: lightyellow;
+    box-shadow: 10px 18px #888888;
+    overflow: scroll;
+  }
+  
+  
+  /* Financial - Bank Info CSS----------------------------------------------------------------------------------------*/
+  
+  #bank-information-container {
+    /* margin: auto; */
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    font-family: fantasy;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888;
+    background-color: lightyellow;
+  }
+  
+  #bank-information-p-border {
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+  }
+  
+  #hero-bank-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: absolute; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  /* Automotive - Car Info CSS----------------------------------------------------------------------------------------*/
+  
+  #car-information-container {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    height: 70vh;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: lightyellow;
+    overflow-wrap: break-word;
+    font-family: fantasy;
+  }
+  
+  #hero-car-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: absolute; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  
+  /* -------------------------------------------------------------------------------------- */
+  
+  /* Automotive - Car Record Info CSS----------------------------------------------------------------------------------------*/
+  
+  #car-record-information-container {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    border-color: black;
+    border-style: solid;
+    background-color: lightyellow;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: fantasy;
+  }
+  
+  #car-record-information-container p  {
+    font-size: 1em;
+  }
+  
+  
+  #hero-car-record-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: absolute; */
+    /* opacity: 0.9; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Automotive - Repair Shop Info CSS----------------------------------------------------------------------------------------*/
+  
+  #repair-shop-info-container {
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 60vh;
+    font-size: 1em;
+    font-family: fantasy;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: lightyellow;
+    overflow: scroll;
+  }
+  
+  #hero-repair-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: relative; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  /* ---------------------------------------------------------------------------------------*/
+  
+  /* Medical - Medical Record Info CSS----------------------------------------------------------------------------------------*/
+  
+  #hero-medical-record-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    /* bottom: 0; */
+    height: 100vh;
+    width: 100%;
+    /* font-size: 20px; */
+    z-index: -10;
+    margin: 0;
+    /* position: relative; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #medical-record-info-container {
+    margin: auto;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: lightyellow;
+    font-size: 2em;
+    font-family: fantasy;
+    height: 80vh;
+    width: 70%;
+    /* overflow: scroll; */
+    text-align: center;
+  }
+  
+  /* Medical - Doctor Office Info CSS----------------------------------------------------------------------------------------*/
+  
+  .doctor-office-info-container {
+    margin: auto;
+    padding: 30px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightyellow;
+    font-size: 1em;
+    font-family: fantasy;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: fantasy;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .doctor-office-info-input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: lightyellow;
+    text-align: center;
+  }
+  
+  #hero-doctor-office-information-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    /* bottom: 0; */
+    height: 100vh;
+    width: 100%;
+    /* font-size: 20px; */
+    z-index: -10;
+    margin: 0;
+    /* position: relative; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* Fun React Components CSS----------------------------------------------------------------------------------------*/
+  
+  #hero-to-do-list-component-background {
+    background-image: url('../assets/Long-row-of-suburban-townhouses-with-a-white-picket-fence-in-front.-min-e1442000949923.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    /* bottom: 0; */
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: relative; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #hero-home-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+  }
+  
+  #margin {
+    margin: 10px 10px 10px 10px;
+  }
+  /* #home-container {
+    margin: auto;
+    padding: 25px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 3vh;
+    height: 100vh;
+    font-family: courier;
+    text-align: center;
+  } */
+  
+  #to-do-list-container {
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+  }
+  
+  #to-do-list-item {
+    list-style: none;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 150px;
+    max-width: 150px;
+    /* margin: auto; */
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: right;
+    font-size: 1em;
+  }
+  
+  .footer-text {
+    margin: 10px;
+  }
+  
+  .hero-media-background {
+    background-image: url('../assets/page-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+    height: 150vh;
+    width: 100%;
+    z-index: -10;
+    margin: 0;
+    /* position: absolute; */
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  .media-uploads-container {
+    text-align: center;
+  }

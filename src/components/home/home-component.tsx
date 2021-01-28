@@ -10,6 +10,7 @@ import HomeTabComponent from '../tab-components/HomeTabComponent';
 import AboutMeTabComponent from '../tab-components/AboutMeTabComponent';
 import ResumeTabComponent from '../tab-components/ResumeTabComponent';
 import CodingProjectsTabComponent from '../tab-components/CodingProjectsTabComponent';
+import { FooterComponent } from '../footer-component/footer-component';
 
 export class HomeComponent extends React.Component<any, any>  {
     constructor(props: any) {
@@ -49,6 +50,7 @@ export class HomeComponent extends React.Component<any, any>  {
                         </div> */}
                     </div>
                 </div>
+                <FooterComponent />
             </div>
                     )
                 }

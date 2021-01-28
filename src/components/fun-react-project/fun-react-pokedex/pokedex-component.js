@@ -4,6 +4,7 @@ import PokeList from './pokelist-component';
 import DetailView from './detailview';
 import Pokemon from './pokemon';
 import { FunReactProjectNavBarComponent } from '../fun-react-project-navbar/FunReactProjectNavBar';
+import { FooterComponent } from '../../footer-component/footer-component';
 
 
 export class PokedexComponent extends React.Component {
@@ -45,6 +46,7 @@ export class PokedexComponent extends React.Component {
                         {/* </Container> */}
                     </Form>
                 </div>
+                <FooterComponent />
             </div>
         )
     }

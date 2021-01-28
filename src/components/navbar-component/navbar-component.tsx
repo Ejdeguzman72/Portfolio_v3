@@ -11,7 +11,6 @@ export class NavBarComponent extends React.Component<any, any> {
 
     }
 
-
     render() {
         return (
             <div>
@@ -48,9 +47,9 @@ export class NavBarComponent extends React.Component<any, any> {
                         </Nav>
                         <Form inline>
                             <Button variant="outline-info" id="navbar-button">
-                                <a href="http://project-dsa-bucket.s3.us-east-2.amazonaws.com/index.html#/" >
+                                <Link to="/home-tracker-info-login">
                                     EJ-Application
-                            </a>
+                                </Link>
                             </Button>
                             <Button variant="outline-info" id="navbar-button">
                                 <Link to="/fun-react-projects">Fun React Projects</Link>

@@ -9,7 +9,7 @@ const BankTabComponent = () => {
                     <Col md={12}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                                <Nav.Link href="#home" eventKey="first" id="tabs">Bank Information</Nav.Link>
+                                <Nav.Link href="#banks" eventKey="first" id="tabs">Bank Information</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Col>
